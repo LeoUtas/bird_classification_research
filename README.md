@@ -147,7 +147,7 @@ The results of this project is pretty decent when compared to similar efforts ad
 
 ##### Using the source code for development
 
--   Fork this repository (https://github.com/LeoUtas/bird_classification_flask_2models.git).
+-   Fork this repository (https://github.com/LeoUtas/bird_classification_research.git).
 -   First thing first, before proceeding, ensure that you are in the root directory of the project.
 -   Get the docker container ready:
 
