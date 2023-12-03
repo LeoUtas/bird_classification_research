@@ -166,9 +166,7 @@ def make_metrics_json(test_name, path_to_csv, path_to_save_json):
 
 # ___________ MAKE PREDICTION FOR 1 IMAGE TO TEST ACCURACY ___________ #
 class YOLOv8_classifier:
-
     """
-
     This class is the core part of the project. It loads a chosen model of YOLOv8, class indices and retrieve uploaded images to use in prediction generating a series of probabilities for class indices, the class index, with the highest probability, will be chosen and mapped with its label (i.e., common name) and scientific name.
 
     """

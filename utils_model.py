@@ -17,7 +17,6 @@ def configure_model_base(
     learning_rate,
 ):
     """
-
     This function configures and compiles a base model for training and evaluation based on the given parameters.
 
     Parameters:
@@ -154,7 +153,7 @@ def visualize_metric(
     - metrics (dict): A dictionary containing the metrics data of tested models.
                       Expected keys for each model: 'train_accuracy', 'val_accuracy',
                       'test_accuracy', 'train_loss', 'val_loss', and 'execution_time'.
-                      
+
     - nrows (int, optional, default=4): Number of rows for the subplots grid.
     - ncols (int, optional, default=2): Number of columns for the subplots grid.
     - figsize (tuple, optional): Figure size. Default is calculated based on the number of metrics.
@@ -335,7 +334,6 @@ def notify_training_completion(test_name):
 # ________________ HANDY FUNCTION TO GET THE FILE NAME ________________ #
 def get_name():
     """
-
     This function gets the name of the current file and remove the extention part of the name
 
     Parameters:
@@ -354,7 +352,6 @@ def get_name():
 # ______ SEARCH FOR BEST | WORST CASES AMONGST CORRECT PREDICTIONS ______ #
 def find_best_worst_cases_in_correct_predictions(chosen_model, test_data, number_cases):
     """
-
     This function is to find the worst cases in correct predictions (i.e., the least condident level amongst correct predictions)
 
     Parameters:
@@ -552,7 +549,6 @@ def visualize_found_cases(
     cases_info, test_data, plot_title, figsize=(12, 12), nrows=4, ncols=4, fontsize=12
 ):
     """
-
     This function is to visualize the images found in find_best_cases_in_correct_predictions() and find_worst_cases_in_correct_predictions()
 
     """
