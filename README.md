@@ -39,14 +39,9 @@ After evaluating performance metrics and processing speed, MobileNetV1 was chose
 -   The application documentation of <a href="https://docs.ultralytics.com/"> YOLOv8 </a> by Ultralytics.
 
 *   Pytorch
-*   YOLOv8
 *   TensorFlow
 *   numpy
 *   pandas
-*   Flask
-*   JavaScript (plain)
-*   HTML
-*   CSS (Bootstrap)
 *   Docker
 *   AWS EC2
 *   AWS S3
@@ -131,13 +126,31 @@ predictions, test_accuracy = make_evaluation_on_testdata(
 
 ### Results
 
+<h6 align="center">
+  Visualization of bird species
+</h6>
+
+<p align="center">
+  <img src="input/viz/image_visualization.jpg" alt="" width="690">
+</p>
+
 This project involved numerous experiments, but only the most significant results are highlighted here.
 
+<h6 align="center">
 MobileNet - test 20
-<img src="output/viz/model_performance_plot_mobilenet_finetune_test20.jpg" alt="" width="550">
+</h6>
 
+<p align="center">
+    <img src="output/viz/model_performance_plot_mobilenet_finetune_test20.jpg" alt="" width="550">
+</p>
+
+<h6 align="center">
 YOLOv8 test0
+</h6>
+
+<p align="center">
 <img src="output/viz/results.png" alt="" width="550">
+</p>
 
 -   YOLOv8 accuracy on test data: 98.5%
 
