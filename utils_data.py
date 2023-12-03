@@ -57,7 +57,7 @@ def make_data_path(root_name):
                 root_name,
                 "input",
                 "data",
-                "valid",
+                "val",
             )
         )
 
@@ -70,7 +70,6 @@ def make_data_path(root_name):
 # ________________ VISUALIZE IMAGES ________________ #
 def visualize_images(path, nrows=4, ncols=4, figsize=(12, 12)):
     """
-
     This function visualizes randomly selected bird images from a specified directory, displaying both their common and scientific names.
 
     Parameters:
