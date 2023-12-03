@@ -1,0 +1,70 @@
+{
+    "MobileNet_test0": {
+        "train_accuracy": [
+            0.0021668856497853994
+        ],
+        "val_accuracy": [
+            0.0031250000465661287
+        ],
+        "train_loss": [
+            6.432079315185547
+        ],
+        "val_loss": [
+            6.36382532119751
+        ],
+        "test_accuracy": 0.0019105846295133233,
+        "test_loss": 6.363192558288574,
+        "execution_time": 125.24158310890198
+    },
+    "MobileNet_test1": {
+        "train_accuracy": [
+            0.5091944336891174
+        ],
+        "val_accuracy": [
+            0.6812499761581421
+        ],
+        "train_loss": [
+            68.15827941894531
+        ],
+        "val_loss": [
+            45.640586853027344
+        ],
+        "test_accuracy": 0.7137944102287292,
+        "test_loss": 36.51148223876953,
+        "execution_time": 111.0444700717926
+    },
+    "MobileNet_test2": {
+        "train_accuracy": [
+            0.0019300676649436355
+        ],
+        "val_accuracy": [
+            0.0031250000465661287
+        ],
+        "train_loss": [
+            6.428332328796387
+        ],
+        "val_loss": [
+            6.390280246734619
+        ],
+        "test_accuracy": 0.0019105846295133233,
+        "test_loss": 6.371732711791992,
+        "execution_time": 838.4071099758148
+    },
+    "MobileNet_test3": {
+        "train_accuracy": [
+            0.48927804827690125
+        ],
+        "val_accuracy": [
+            0.703125
+        ],
+        "train_loss": [
+            72.88224029541016
+        ],
+        "val_loss": [
+            41.71087646484375
+        ],
+        "test_accuracy": 0.7202904224395752,
+        "test_loss": 38.338504791259766,
+        "execution_time": 834.6251327991486
+    }
+}

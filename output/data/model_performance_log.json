@@ -1,0 +1,104 @@
+{
+    "InceptionV3": {
+        "train_loss": [
+            447.6524658203125
+        ],
+        "train_accuracy": [
+            0.39927083253860474
+        ],
+        "val_loss": [
+            297.6126403808594
+        ],
+        "val_accuracy": [
+            0.5874999761581421
+        ],
+        "execution_time": 170.52501893043518,
+        "test_loss": 241.49868774414062,
+        "test_accuracy": 0.6053435206413269
+    },
+    "ResNet50": {
+        "train_loss": [
+            601.8670654296875
+        ],
+        "train_accuracy": [
+            0.015577835962176323
+        ],
+        "val_loss": [
+            394.3857727050781
+        ],
+        "val_accuracy": [
+            0.015625
+        ],
+        "execution_time": 241.34565210342407,
+        "test_loss": 392.4375,
+        "test_accuracy": 0.03244274854660034
+    },
+    "MobileNet": {
+        "train_loss": [
+            768.8514404296875
+        ],
+        "train_accuracy": [
+            0.29191869497299194
+        ],
+        "val_loss": [
+            310.5616760253906
+        ],
+        "val_accuracy": [
+            0.526562511920929
+        ],
+        "execution_time": 260.5665783882141,
+        "test_loss": 293.20166015625,
+        "test_accuracy": 0.5305343270301819
+    },
+    "MobileNetV2": {
+        "train_loss": [
+            358.322509765625
+        ],
+        "train_accuracy": [
+            0.45337894558906555
+        ],
+        "val_loss": [
+            278.2588806152344
+        ],
+        "val_accuracy": [
+            0.6156250238418579
+        ],
+        "execution_time": 1022.5518574714661,
+        "test_loss": 212.577880859375,
+        "test_accuracy": 0.6667938828468323
+    },
+    "EfficientNetB0": {
+        "train_loss": [
+            2331.271240234375
+        ],
+        "train_accuracy": [
+            0.0017874264158308506
+        ],
+        "val_loss": [
+            1983.549560546875
+        ],
+        "val_accuracy": [
+            0.0015625000232830644
+        ],
+        "execution_time": 659.7688565254211,
+        "test_loss": 1989.218505859375,
+        "test_accuracy": 0.0019083969527855515
+    },
+    "EfficientNetV2B0": {
+        "train_loss": [
+            307.529541015625
+        ],
+        "train_accuracy": [
+            0.0018347755540162325
+        ],
+        "val_loss": [
+            265.9044189453125
+        ],
+        "val_accuracy": [
+            0.0
+        ],
+        "execution_time": 296.70144629478455,
+        "test_loss": 261.0546875,
+        "test_accuracy": 0.0019083969527855515
+    }
+}
