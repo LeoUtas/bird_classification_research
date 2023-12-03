@@ -57,7 +57,7 @@ This project utilizes a bird species dataset provided by <a href="https://www.ka
 
 ### The design
 
-<img src="resource/code_structure.png" alt="Alt text" width="550">
+<img src="output/viz/code_structure.png" alt="" width="550">
 
 The diagram provided above outlines the core structure of this project. The training of the model was carried out on AWS EC2, utilizing data stored in an S3 bucket. Following is the example of a brief outline of the code setups for experimenting with different configurations of MobileNetV1 and YOLOv8.
 
