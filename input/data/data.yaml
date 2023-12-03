@@ -1,0 +1,6 @@
+names:
+    - Bird_classification
+nc: 524
+test: /root/WSL-projects/Bird_classification/Research/input/data/test/images
+train: /root/WSL-projects/Bird_classification/Research/input/data/train/images
+val: /root/WSL-projects/Bird_classification/Research/input/data/val/images
