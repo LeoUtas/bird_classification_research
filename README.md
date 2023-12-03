@@ -137,7 +137,7 @@ MobileNet - test 20
 <img src="output/viz/model_performance_plot_mobilenet_finetune_test20.jpg" alt="" width="550">
 
 YOLOv8 test0
-<img src="models/YOLOv8/test1/train/results.png" alt="" width="550">
+<img src="output/viz/results.png" alt="" width="550">
 
 -   YOLOv8 accuracy on test data: 98.5%
 
