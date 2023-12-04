@@ -136,17 +136,23 @@ predictions, test_accuracy = make_evaluation_on_testdata(
 
 This project involved numerous experiments, but only the most significant results are highlighted here.
 
+<br>
+
 <h6 align="center">
-MobileNet - test 20
+Model performance metrics
 </h6>
+
+<p align="left">
+MobileNet - test 20
+</p>
 
 <p align="center">
     <img src="output/viz/model_performance_plot_mobilenet_finetune_test20.jpg" alt="" width="550">
 </p>
 
-<h6 align="center">
+<p align="left">
 YOLOv8 test0
-</h6>
+</p>
 
 <p align="center">
 <img src="output/viz/results.png" alt="" width="550">
