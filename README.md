@@ -52,7 +52,7 @@ This project utilizes a bird species dataset provided by <a href="https://www.ka
 
 ### The design
 
-<img src="output/viz/code_structure.png" alt="" width="550">
+<img src="media/code_structure.png" alt="" width="550">
 
 The diagram provided above outlines the core structure of this project. The training of the model was carried out on AWS EC2, utilizing data stored in an S3 bucket. Following is the example of a brief outline of the code setups for experimenting with different configurations of MobileNetV1 and YOLOv8.
 
@@ -179,7 +179,7 @@ The results of this project is pretty decent when compared to similar efforts ad
     -   Run a docker container in an interactive mode (once the docker image is built, you can run a docker container).
 
     ```cmd
-    docker run -it -v "$(PWD):/app" <name of the docker image> /bin/bash
+    docker run -it -v "$(PWD)" <name of the docker image> /bin/bash
     ```
 
     -   Now, it should be running inside the interactive mode of the docker container to explore the code functionalities.
