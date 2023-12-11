@@ -9,6 +9,7 @@
     <li><a href="#the-design">The design</a></li>
     <li><a href="#results">Results</a></li>
     <li><a href="#how-to-use-the-source-code">How to use the source code</a></li>
+    <li><a href="#the-bottom-line">The Bottom Line</a></li>
     <li><a href="#reference">Reference</a></li>
   </ol>
 </details>
@@ -160,39 +161,6 @@ YOLOv8 test0
 -   YOLOv8 accuracy on test data: 98.5%
 
 The results of this project is pretty decent when compared to similar efforts addressing the task of classifying bird species using the <a href="https://www.kaggle.com/datasets/gpiosenka/100-bird-species/data"> birds 525 species- image classification dataset </a>. The highest accuracy achieved so far is approximately 98% on the test dataset (e.g., <a href="https://thesai.org/Downloads/Volume14No7/Paper_102-Bird_Detection_and_Species_Classification.pdf"> Vo, H.-T., et al. 2023</a>)
-
-### How to use the source code
-
-##### Using the source code for development
-
--   Fork this repository (https://github.com/LeoUtas/bird_classification_research.git).
--   First thing first, before proceeding, ensure that you are in the root directory of the project.
--   Get the docker container ready:
-
-    -   Run docker build (it might take a while for installing all the required dependencies to your local docker image).
-
-    ```cmd
-    docker build -t <name of the docker image> .
-    ```
-
-    -   Run a docker container in an interactive mode (once the docker image is built, you can run a docker container).
-
-    ```cmd
-    docker run -it -v "$(PWD)" <name of the docker image> /bin/bash
-    ```
-
-    -   Now, it should be running inside the interactive mode of the docker container to explore the code functionalities.
-    -   When you're done, you can simply type "exit" to escape the development environment
-
-    ```
-    exit
-    ```
-
--   Also, stop running the container when you're done:
-
-    ```cmd
-    docker stop <name of the container>
-    ```
 
 I'm excited to share this repository! Please feel free to explore its functionalities. Thank you for this far. Have a wonderful day ahead!
 
