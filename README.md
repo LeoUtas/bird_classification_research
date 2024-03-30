@@ -16,35 +16,11 @@
 
 ### Introduction
 
-<ul style="padding-left: 20px; list-style-type: circle;">
-        <li>The project includes 4 repositories:
-            <ul>                
-                <li>
-                <a href="https://github.com/LeoUtas/bird_classification_research.git" style="text-decoration: none; color: #3498db;">Bird classification research</a>
-                </li>
-                <li>
-                <a href="https://github.com/LeoUtas/bird_classification_flask_MobileNet.git" style="text-decoration: none; color: #3498db;">Bird classification web application using MobileNet model</a>
-                </li>
-                <li>
-                <a href="https://github.com/LeoUtas/bird_classification_flask_YOLOv8.git" style="text-decoration: none; color: #3498db;">Bird classification web application using YOLOv8 model</a>
-                </li>
-                <li>
-                <a href="https://github.com/LeoUtas/bird_classification_flask_2models.git">Bird classification web app using MobileNet and YOLOv8 for better comparing model performances</a>
-                </li>                                
-            </ul>
-        </li>
-        <li>
-            I attempted to solve the task using 4 different tools (i.e., InceptionV3, MobileNetV1, MobileNetV2 and YOLOv8). After evaluating performance metrics and processing speed, MobileNetV1 was chosen as the most suitable model for this task <a href="https://bird-classification524-b310a542793a.herokuapp.com/">(visit the live demo)</a>.
-        </li>        
-    </ul>
-
 This repository offers source code for the research part using various model architectures, including:
 
 -   InceptionV3;
 -   MobileNetV1 and MobileNetV2;
 -   YOLOv8.
-
-After evaluating performance metrics and processing speed, MobileNetV1 was chosen as the most suitable model for making a web application <a href="https://bird-classification524-b310a542793a.herokuapp.com/">(visit the live demo)</a>.
 
 ### Technical tools
 
