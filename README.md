@@ -16,7 +16,7 @@
 
 ### Introduction
 
-This repository offers source code for the research part using various model architectures, including:
+This repository offers source code for the research part of the Bird Classification project where I use various model architectures, including:
 
 -   InceptionV3;
 -   MobileNetV1 and MobileNetV2;
